@@ -7,9 +7,9 @@ import net.corda.core.transactions.LedgerTransaction;
 // ************
 // * Contract *
 // ************
-public class TemplateContract implements Contract {
+public class DonateContract implements Contract {
     // This is used to identify our contract when building a transaction.
-    public static final String ID = "com.divoc.contracts.TemplateContract";
+    public static final String ID = "com.divoc.contracts.DonateContract";
 
     // A transaction is valid if the verify() function of the contract of all the transaction's input and output states
     // does not throw an exception.
