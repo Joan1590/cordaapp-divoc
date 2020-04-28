@@ -21,18 +21,20 @@ public class DonateState implements LinearState {
     private final String idItem;
     private final String propietario;
     private final String estado;
+    private final String ubicacion;
     private final Party sender;
     private final Party reciever;
     private final UniqueIdentifier linearId;
 
     public DonateState(String idDonante, String idDonatario,
                        String idItem, String propietario,
-                       String estado, Party sender, Party reciever, UniqueIdentifier linearId) {
+                       String estado, String ubicacion, Party sender, Party reciever, UniqueIdentifier linearId) {
         this.idDonante = idDonante;
         this.idDonatario = idDonatario;
         this.idItem = idItem;
         this.propietario = propietario;
         this.estado = estado;
+        this.ubicacion = ubicacion;
         this.sender = sender;
         this.reciever = reciever;
         this.linearId = linearId;
@@ -68,5 +70,9 @@ public class DonateState implements LinearState {
 
     public String getEstado() {
         return estado;
+    }
+
+    public String getUbicacion() {
+        return ubicacion;
     }
 }
