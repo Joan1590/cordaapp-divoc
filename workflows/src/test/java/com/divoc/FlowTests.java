@@ -1,7 +1,6 @@
 package com.divoc;
 
 import com.google.common.collect.ImmutableList;
-import com.divoc.flows.Responder;
 import net.corda.testing.node.MockNetwork;
 import net.corda.testing.node.MockNetworkParameters;
 import net.corda.testing.node.StartedMockNode;
