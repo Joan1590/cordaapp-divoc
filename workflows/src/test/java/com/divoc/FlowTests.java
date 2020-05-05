@@ -18,8 +18,8 @@ public class FlowTests {
     private final StartedMockNode b = network.createNode();
 
     public FlowTests() {
-        a.registerInitiatedFlow(Responder.class);
-        b.registerInitiatedFlow(Responder.class);
+        //a.registerInitiatedFlow(Responder.class);
+        //b.registerInitiatedFlow(Responder.class);
     }
 
     @Before
